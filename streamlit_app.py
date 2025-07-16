@@ -10,7 +10,7 @@ if st.button("Hitung Luas Lingkaran",type="primary"):
   loading=st.progress(0)
   for i in range(100):
     time.sleep(0.01)
-    loading.progress(i+1)
+    loading.progress(i + 1)
     
   L=math.pi*(r**2)
   st.success(f'Luas lingkaran adalah {L:.4f}')
